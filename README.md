@@ -1,16 +1,12 @@
-# flutter_ui_challenge_01_02
+# Flutter UI Challenge: 01 Difficulty & Challenge 02
 
-A new Flutter project.
+The Flutter UI Challenges! From Low to Pro with the best practices.
 
-## Getting Started
+## What am I doing?
 
-This project is a starting point for a Flutter application.
+Flutter UI challenges with best practices. Each repository will increase the difficulty of the UI challenges. Each challenge belongs to a block of difficulty. The first numbers are from the block, while the last numbers are the challenge number.
 
-A few resources to get you started if this is your first Flutter project:
+## UI inspiration by "Hendrik S."
+![Exonent Flutter Challenge](https://cdn.dribbble.com/users/1790741/screenshots/9442969/media/be1bd306ed7974e181c848425dc121f9.jpg?compress=1&resize=1600x1200)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://dribbble.com/shots/9442969-User-Profile-Daily-UI-006
