@@ -1,21 +1,25 @@
 import 'package:flutter/material.dart';
 
-const kBottomContainerHeight = 80.0;
-const kActiveCardColour = Color(0xFF1D1E33);
-const kInactiveCardColour = Color(0xFF111328);
-const kBottomContainerColour = Color(0xFFEB1555);
+class changeTheme {
+  static bool theme = false;
 
-const kLabelTextStyle = TextStyle(
-  fontSize: 18.0,
-  color: Color(0xFF8D8E98),
-);
+// #######  Light Theme
+  Color cambiarTemplate(String tipo) {
+    switch (tipo) {
+      case "background":
+        return theme ? const Color(0xFFFFFFFF) : const Color(0xFF333132);
+      case "title":
+        return theme ? const Color(0xFFF5F5F5) : const Color(0xFF2B292A);
+      case "navbar":
+        return theme ? const Color(0xFFFEFEFE) : const Color(0xFF000000);
+      case "textColor":
+        return theme ? const Color(0xFF4F4F4F) : const Color(0xFFE6E6E6);
+      default:
+        return const Color(0xFFF5F5F5);
+    }
+  }
+}
 
-const kNumberTextStyle = TextStyle(
-  fontSize: 50.0,
-  fontWeight: FontWeight.w900,
-);
-
-const kLargeButtonTextStyle = TextStyle(
-  fontSize: 25.0,
-  fontWeight: FontWeight.bold,
-);
+// #######  Common Theme
+const kPinkBackgroud = Color(0xFFFF006B);
+const kIconsBackground = Color(0xFFB42D6A);

@@ -1,114 +1,52 @@
-import 'package:flutter/material.dart';
-import 'package:APP_NOMBRE/Constants/assets.dart';
-import 'package:APP_NOMBRE/Models/models.dart';
+import 'package:flutter_ui_challenge_01_02/Constants/assets.dart';
+import 'package:flutter_ui_challenge_01_02/Models/models.dart';
 
-final Content sintelContent = Content(
-  name: 'Sintel',
-  imageUrl: Assets.sintel,
-  titleImageUrl: Assets.sintelTitle,
-  videoUrl: Assets.sintelVideoUrl,
-  description:
-      'A lonely young woman, Sintel, helps and befriends a dragon,\nwhom she calls Scales. But when he is kidnapped by an adult\ndragon, Sintel decides to embark on a dangerous quest to find\nher lost friend Scales.',
+const Content headerContent = Content(
+  name: 'Banner',
+  image: Assets.img_header,
 );
 
-final List<Content> previews = const [
-  Content(
-    name: 'Avatar The Last Airbender',
-    imageUrl: Assets.atla,
-    color: Colors.orange,
-    titleImageUrl: Assets.atlaTitle,
-  ),
-  Content(
-    name: 'The Crown',
-    imageUrl: Assets.crown,
-    color: Colors.red,
-    titleImageUrl: Assets.crownTitle,
-  ),
-  Content(
-    name: 'The Umbrella Academy',
-    imageUrl: Assets.umbrellaAcademy,
-    color: Colors.yellow,
-    titleImageUrl: Assets.umbrellaAcademyTitle,
-  ),
-  Content(
-    name: 'Carole and Tuesday',
-    imageUrl: Assets.caroleAndTuesday,
-    color: Colors.lightBlueAccent,
-    titleImageUrl: Assets.caroleAndTuesdayTitle,
-  ),
-  Content(
-    name: 'Black Mirror',
-    imageUrl: Assets.blackMirror,
-    color: Colors.green,
-    titleImageUrl: Assets.blackMirrorTitle,
-  ),
-  Content(
-    name: 'Avatar The Last Airbender',
-    imageUrl: Assets.atla,
-    color: Colors.orange,
-    titleImageUrl: Assets.atlaTitle,
-  ),
-  Content(
-    name: 'The Crown',
-    imageUrl: Assets.crown,
-    color: Colors.red,
-    titleImageUrl: Assets.crownTitle,
-  ),
-  Content(
-    name: 'The Umbrella Academy',
-    imageUrl: Assets.umbrellaAcademy,
-    color: Colors.yellow,
-    titleImageUrl: Assets.umbrellaAcademyTitle,
-  ),
-  Content(
-    name: 'Carole and Tuesday',
-    imageUrl: Assets.caroleAndTuesday,
-    color: Colors.lightBlueAccent,
-    titleImageUrl: Assets.caroleAndTuesdayTitle,
-  ),
-  Content(
-    name: 'Black Mirror',
-    imageUrl: Assets.blackMirror,
-    color: Colors.green,
-    titleImageUrl: Assets.blackMirrorTitle,
-  ),
-];
+const UserData userData = UserData(
+  name: 'Santiago Cuervo',
+  image: Assets.img_developer,
+  description: "Flutter Pro Lover",
+);
 
-final List<Content> myList = const [
-  Content(name: 'Violet Evergarden', imageUrl: Assets.violetEvergarden),
-  Content(name: 'How to Sell Drugs Online (Fast)', imageUrl: Assets.htsdof),
-  Content(name: 'Kakegurui', imageUrl: Assets.kakegurui),
-  Content(name: 'Carole and Tuesday', imageUrl: Assets.caroleAndTuesday),
-  Content(name: 'Black Mirror', imageUrl: Assets.blackMirror),
-  Content(name: 'Violet Evergarden', imageUrl: Assets.violetEvergarden),
-  Content(name: 'How to Sell Drugs Online (Fast)', imageUrl: Assets.htsdof),
-  Content(name: 'Kakegurui', imageUrl: Assets.kakegurui),
-  Content(name: 'Carole and Tuesday', imageUrl: Assets.caroleAndTuesday),
-  Content(name: 'Black Mirror', imageUrl: Assets.blackMirror),
-];
-
-final List<Content> originals = const [
-  Content(name: 'Stranger Things', imageUrl: Assets.strangerThings),
-  Content(name: 'The Witcher', imageUrl: Assets.witcher),
-  Content(name: 'The Umbrella Academy', imageUrl: Assets.umbrellaAcademy),
-  Content(name: '13 Reasons Why', imageUrl: Assets.thirteenReasonsWhy),
-  Content(name: 'The End of the F***ing World', imageUrl: Assets.teotfw),
-  Content(name: 'Stranger Things', imageUrl: Assets.strangerThings),
-  Content(name: 'The Witcher', imageUrl: Assets.witcher),
-  Content(name: 'The Umbrella Academy', imageUrl: Assets.umbrellaAcademy),
-  Content(name: '13 Reasons Why', imageUrl: Assets.thirteenReasonsWhy),
-  Content(name: 'The End of the F***ing World', imageUrl: Assets.teotfw),
-];
-
-final List<Content> trending = const [
-  Content(name: 'Explained', imageUrl: Assets.explained),
-  Content(name: 'Avatar The Last Airbender', imageUrl: Assets.atla),
-  Content(name: 'Tiger King', imageUrl: Assets.tigerKing),
-  Content(name: 'The Crown', imageUrl: Assets.crown),
-  Content(name: 'Dogs', imageUrl: Assets.dogs),
-  Content(name: 'Explained', imageUrl: Assets.explained),
-  Content(name: 'Avatar The Last Airbender', imageUrl: Assets.atla),
-  Content(name: 'Tiger King', imageUrl: Assets.tigerKing),
-  Content(name: 'The Crown', imageUrl: Assets.crown),
-  Content(name: 'Dogs', imageUrl: Assets.dogs),
+const List<Content> previews = [
+  Content(
+    name: 'Cyberpunk',
+    image: Assets.img_cyberpunk,
+  ),
+  Content(
+    name: 'Spider-Man',
+    image: Assets.img_spiderman,
+  ),
+  Content(
+    name: 'Horizon',
+    image: Assets.img_horizon,
+  ),
+  Content(
+    name: 'FIFA20',
+    image: Assets.img_fifa20,
+  ),
+  Content(
+    name: 'Red Read Redemption II',
+    image: Assets.img_redredem,
+  ),
+  Content(
+    name: 'God of War',
+    image: Assets.img_godofwar,
+  ),
+  Content(
+    name: 'Guild Wars 2',
+    image: Assets.img_guildwars,
+  ),
+  Content(
+    name: 'Apex',
+    image: Assets.img_apex,
+  ),
+  Content(
+    name: 'Battlefield 2042',
+    image: Assets.img_battlefield,
+  ),
 ];
